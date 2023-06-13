@@ -1,7 +1,11 @@
+import Top from './Top/Top';
+import Bottom from './Bottom/Bottom';
+
 function App() {
   return (
     <>
-      <h1>hello, world</h1>
+      <Top />
+      <Bottom />
     </>
   );
 }
