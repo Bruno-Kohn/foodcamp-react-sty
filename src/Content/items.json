@@ -1,0 +1,143 @@
+[
+  {
+    "optionDescription": "First, your dish",
+    "item": [
+      {
+        "image": "Images/bigmac.jpg",
+        "name": "Big Mac",
+        "description": "Iconic burger, double patty classic",
+        "price": "$6.19"
+      },
+      {
+        "image": "Images/cheddar.jpg",
+        "name": "Cheddar McMelt",
+        "description": "Melty cheddar bliss on bun",
+        "price": "$4.99"
+      },
+      {
+        "image": "Images/cheeseburger.jpg",
+        "name": "Cheeseburger",
+        "description": "Classic beef, cheese on bun",
+        "price": "$2.99"
+      },
+      {
+        "image": "Images/filet-o-fish.jpg",
+        "name": "Filet-O-Fish",
+        "description": "Crispy fish, tartar sauce delight",
+        "price": "$3.59"
+      },
+      {
+        "image": "Images/mcchicken.jpg",
+        "name": "McChicken",
+        "description": "Savory chicken, mayo, lettuce, bun",
+        "price": "$3.59"
+      },
+      {
+        "image": "Images/mcdouble.jpg",
+        "name": "McDouble",
+        "description": "Double beef, double cheese, classic McDonald`s delight",
+        "price": "$5.49"
+      },
+      {
+        "image": "Images/mccrispy.jpg",
+        "name": "McCrispy",
+        "description": "Crispy, flavorful, satisfying",
+        "price": "$5.59"
+      }
+    ]
+  },
+  {
+    "optionDescription": "Now, your drink",
+    "item": [
+      {
+        "image": "Images/coca.jpg",
+        "name": "Coke",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.19"
+      },
+      {
+        "image": "Images/dr-pepper.jpg",
+        "name": "Dr. Pepper",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.29"
+      },
+      {
+        "image": "Images/guarana.jpg",
+        "name": "Guarana",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.39"
+      },
+      {
+        "image": "Images/hot-chocolate.jpg",
+        "name": "Hot Chocolate",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.49"
+      },
+      {
+        "image": "Images/lemonade.jpg",
+        "name": "Lemonade",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.59"
+      },
+      {
+        "image": "Images/sprite.jpg",
+        "name": "Sprite",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.69"
+      },
+      {
+        "image": "Images/sweet-tea.jpg",
+        "name": "Sweet Tea",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.79"
+      }
+    ]
+  },
+  {
+    "optionDescription": "Finally, your dessert",
+    "item": [
+      {
+        "image": "Images/casquinha.jpg",
+        "name": "Vanilla Cone",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.19"
+      },
+      {
+        "image": "Images/apple-fritter.jpg",
+        "name": "Apple Fritter",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.29"
+      },
+      {
+        "image": "Images/blueberry-muffin.jpg",
+        "name": "Blueberry Muffin",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.39"
+      },
+      {
+        "image": "Images/mcflurry.jpg",
+        "name": "McFlurry",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.49"
+      },
+      {
+        "image": "Images/strawberry-shake.jpg",
+        "name": "Strawberry Shake",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.59"
+      },
+      {
+        "image": "Images/sundae.jpg",
+        "name": "Sundae",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.69"
+      },
+      {
+        "image": "Images/vanilla-shake.jpg",
+        "name": "Vanilla Shake",
+        "description": "hummmmm.. tasty!",
+        "price": "$1.79"
+      }
+    ]
+  }
+]

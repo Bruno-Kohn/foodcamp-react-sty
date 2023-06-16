@@ -56,10 +56,9 @@ body {
 }
 
 .content {
-  background-color: #e5e5e5; /* mudar */
-  padding: 110px 0 550px 0;
-  height: 100vh; /* trocar para remover o scroll */
-  width: 100%;
+  background-color: #e5e5e5;
+  padding: 110px 0;
+  height: auto;
 }
 
 .item-option {
@@ -96,8 +95,12 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  border: 8px solid rgb(28, 184, 28);
   position: relative;
+  border: 6px solid #ffffff;
+}
+
+.selected {
+  border: 6px solid rgb(28, 184, 28);
 }
 
 .card-description {
