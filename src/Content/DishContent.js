@@ -1,7 +1,9 @@
 import Item from './Item';
+import React from 'react';
 
 export default function DishContent(props) {
   console.log(props.content, 'props.content');
+  const [isSelected, setIsSelected] = React.useState(false);
 
   return (
     <div className='item-option'>
@@ -10,7 +12,11 @@ export default function DishContent(props) {
       </div>
       <div className='items-card'>
         {props.content.item.map((j) => (
-          <Item Choice={j} />
+          <Item
+            Choice={j}
+            setIsSelected={setIsSelected}
+            isSelected={isSelected}
+          />
         ))}
       </div>
     </div>

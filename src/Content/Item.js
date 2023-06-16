@@ -4,10 +4,14 @@ export default function Item(props) {
   const [selectedCard, setSelectedCard] = React.useState(false);
 
   function selectACard() {
-    setSelectedCard(!selectedCard);
+    if (
+      (!props.isSelected && !selectedCard) ||
+      (props.isSelected && selectedCard)
+    ) {
+      setSelectedCard(!selectedCard);
+      props.setIsSelected(!props.isSelected);
+    }
   }
-
-  console.log(props.Choice, 'props.Choice');
 
   return (
     <div
