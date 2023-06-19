@@ -52,43 +52,43 @@
       {
         "image": "Images/coca.jpg",
         "name": "Coke",
-        "description": "hummmmm.. tasty!",
+        "description": "Refreshing, bubbly, classic cole beverage",
         "price": "$1.19"
       },
       {
         "image": "Images/dr-pepper.jpg",
         "name": "Dr. Pepper",
-        "description": "hummmmm.. tasty!",
+        "description": "Unique blend, bold and flavorful",
         "price": "$1.29"
       },
       {
         "image": "Images/guarana.jpg",
         "name": "Guarana",
-        "description": "hummmmm.. tasty!",
+        "description": "Brazilian caffeine-infused sparkling delight",
         "price": "$1.39"
       },
       {
         "image": "Images/hot-chocolate.jpg",
         "name": "Hot Chocolate",
-        "description": "hummmmm.. tasty!",
+        "description": "Rich, creamy, comforting cocoa indulgence",
         "price": "$1.49"
       },
       {
         "image": "Images/lemonade.jpg",
         "name": "Lemonade",
-        "description": "hummmmm.. tasty!",
+        "description": "Refreshing citrus quencher, sweet tangy goodness",
         "price": "$1.59"
       },
       {
         "image": "Images/sprite.jpg",
         "name": "Sprite",
-        "description": "hummmmm.. tasty!",
+        "description": "Crisp, lemon-lime sparkling thirst quencher",
         "price": "$1.69"
       },
       {
         "image": "Images/sweet-tea.jpg",
         "name": "Sweet Tea",
-        "description": "hummmmm.. tasty!",
+        "description": "Sweet, refreshing, chilled tea delight",
         "price": "$1.79"
       }
     ]
@@ -99,44 +99,44 @@
       {
         "image": "Images/casquinha.jpg",
         "name": "Vanilla Cone",
-        "description": "hummmmm.. tasty!",
+        "description": "Creamy, smooth, classic vanilla treat",
         "price": "$1.19"
       },
       {
         "image": "Images/apple-fritter.jpg",
         "name": "Apple Fritter",
-        "description": "hummmmm.. tasty!",
-        "price": "$1.29"
+        "description": "Flaky, sweet, aplle-filled pastry delight",
+        "price": "$1.89"
       },
       {
         "image": "Images/blueberry-muffin.jpg",
         "name": "Blueberry Muffin",
-        "description": "hummmmm.. tasty!",
-        "price": "$1.39"
+        "description": "Moist, fluffy, bursting with blueberries",
+        "price": "$1.89"
       },
       {
         "image": "Images/mcflurry.jpg",
         "name": "McFlurry",
-        "description": "hummmmm.. tasty!",
-        "price": "$1.49"
+        "description": "Creamy, indulgent, mixed treat delight",
+        "price": "$3.49"
       },
       {
         "image": "Images/strawberry-shake.jpg",
         "name": "Strawberry Shake",
-        "description": "hummmmm.. tasty!",
-        "price": "$1.59"
+        "description": "Creamy, fruity, refreashing shake bliss",
+        "price": "$2.79"
       },
       {
         "image": "Images/sundae.jpg",
         "name": "Sundae",
-        "description": "hummmmm.. tasty!",
+        "description": "Decadent, creamy, sweet dessert delight",
         "price": "$1.69"
       },
       {
         "image": "Images/vanilla-shake.jpg",
         "name": "Vanilla Shake",
-        "description": "hummmmm.. tasty!",
-        "price": "$1.79"
+        "description": "Smooth, creamy, classic ice-cold indulgence",
+        "price": "$2.79"
       }
     ]
   }
