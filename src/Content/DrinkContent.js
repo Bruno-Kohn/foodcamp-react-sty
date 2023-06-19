@@ -2,8 +2,7 @@ import Item from './Item';
 import React from 'react';
 
 export default function DrinkContent(props) {
-  console.log(props.content, 'props.content');
-  const [isSelected, setIsSelected] = React.useState(false);
+  const { counterDrink, setCounterDrink } = props;
 
   return (
     <div className='item-option'>
@@ -14,8 +13,9 @@ export default function DrinkContent(props) {
         {props.content.item.map((j) => (
           <Item
             Choice={j}
-            setIsSelected={setIsSelected}
-            isSelected={isSelected}
+            counterDrink={counterDrink}
+            setCounterDrink={setCounterDrink}
+            category='drink'
           />
         ))}
       </div>

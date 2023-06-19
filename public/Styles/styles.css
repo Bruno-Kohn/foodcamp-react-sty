@@ -139,3 +139,7 @@ body {
   right: 22px;
   bottom: 31px;
 }
+
+.counter-hidden {
+  display: none;
+}
