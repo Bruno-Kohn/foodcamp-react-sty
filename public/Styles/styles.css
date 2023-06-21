@@ -78,7 +78,7 @@ body {
 
 .item-option {
   width: 100%;
-  height: auto; /* mudar */
+  height: auto;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -93,7 +93,6 @@ body {
 }
 
 .items-card {
-  width: 100%;
   height: auto;
   padding-left: 15px;
   display: flex;
@@ -114,6 +113,16 @@ body {
   padding: 20px;
   position: relative;
   border: 6px solid #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(214, 203, 203);
+  border-radius: 15px;
+  width: 10px;
 }
 
 .selected {
