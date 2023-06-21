@@ -34,7 +34,6 @@ export default function Bottom({ enableButton, order }) {
     <div className='bottom'>
       <a
         href={`https://wa.me/5521981037125/?text=${sendToWhatsapp(order)}`}
-        targer='_blank'
         className={enableButton ? 'button-enabled' : 'button-disabled'}
         onClick={enableButton ? () => sendToWhatsapp(order) : () => {}}
       >
