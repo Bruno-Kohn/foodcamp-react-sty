@@ -1,19 +1,12 @@
 export default function Bottom({ enableButton, order }) {
   function sendToWhatsapp(order) {
-    let arr = [];
-    for (let i = 0; i < order.length; i++) {
-      arr.push([`${order[i].item} || ${order[i].valor}`]);
-    }
-    const countMap = {};
+    const orderSummary = generateOrderSummary(order);
+    const encodedOrder = encodeURIComponent(orderSummary);
+    return encodedOrder;
+  }
 
-    arr.forEach((i) => {
-      if (countMap[i]) {
-        countMap[i] += 1;
-      } else {
-        countMap[i] = 1;
-      }
-    });
-
+  function generateOrderSummary(order) {
+    const countMap = countOrderItems(order);
     let myEncodedOrder = '';
     let total = 0;
 
@@ -27,9 +20,26 @@ export default function Bottom({ enableButton, order }) {
     }
 
     myEncodedOrder = `\n${myEncodedOrder}Total: $${total.toFixed(2)}`;
-
-    return encodeURIComponent(myEncodedOrder);
+    return myEncodedOrder;
   }
+
+  function countOrderItems(order) {
+    const countMap = {};
+
+    for (let i = 0; i < order.length; i++) {
+      const item = order[i];
+      const itemKey = `${item.item} || ${item.valor}`;
+
+      if (countMap[itemKey]) {
+        countMap[itemKey] += 1;
+      } else {
+        countMap[itemKey] = 1;
+      }
+    }
+
+    return countMap;
+  }
+
   return (
     <div className='bottom'>
       <a

@@ -21,7 +21,7 @@ export default function Item({
       setCounterDish(counterDish + value);
     } else if (category === 'drink') {
       setCounterDrink(counterDrink + value);
-    } else {
+    } else if (category === 'dessert') {
       setCounterDessert(counterDessert + value);
     }
   }
@@ -31,32 +31,28 @@ export default function Item({
       setSelectedCard(true);
       updateCounter(1);
       setItem(item + 1);
-      setOrder([
-        ...order,
-        {
-          item: Choice.name,
-          valor: parseFloat(Choice.price.replace('$', ''))
-        }
-      ]);
+      const newItem = {
+        item: Choice.name,
+        valor: parseFloat(Choice.price.replace('$', ''))
+      };
+      setOrder([...order, newItem]);
     }
   }
 
   function removeItem() {
     setItem(item - 1);
-    if (item === 1 && category === 'dish') {
+    if (item === 1) {
       setSelectedCard(false);
-      setCounterDish(counterDish - 1);
-    }
-    if (item === 1 && category === 'drink') {
-      setSelectedCard(false);
-      setCounterDrink(counterDrink - 1);
-    }
-    if (item === 1 && category === 'dessert') {
-      setSelectedCard(false);
-      setCounterDessert(counterDessert - 1);
+      if (category === 'dish') {
+        setCounterDish(counterDish - 1);
+      } else if (category === 'drink') {
+        setCounterDrink(counterDrink - 1);
+      } else if (category === 'dessert') {
+        setCounterDessert(counterDessert - 1);
+      }
     }
 
-    let object = {
+    const object = {
       item: Choice.name,
       valor: parseFloat(Choice.price.replace('$', ''))
     };
@@ -71,13 +67,11 @@ export default function Item({
 
   function addItem() {
     setItem(item + 1);
-    setOrder([
-      ...order,
-      {
-        item: Choice.name,
-        valor: parseFloat(Choice.price.replace('$', ''))
-      }
-    ]);
+    const newItem = {
+      item: Choice.name,
+      valor: parseFloat(Choice.price.replace('$', ''))
+    };
+    setOrder([...order, newItem]);
   }
 
   return (
@@ -92,11 +86,11 @@ export default function Item({
         <h3>{Choice.price}</h3>
       </div>
       <div className={`counter ${selectedCard ? '' : 'counter-hidden'}`}>
-        <div className='minus' onClick={() => removeItem()}>
+        <div className='minus' onClick={removeItem}>
           -
         </div>
         <div className='quantity'>{item}</div>
-        <div className='plus' onClick={() => addItem()}>
+        <div className='plus' onClick={addItem}>
           +
         </div>
       </div>

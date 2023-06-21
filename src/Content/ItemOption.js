@@ -4,12 +4,7 @@ import DessertContent from './DessertContent';
 import items from './items.json';
 import React, { useEffect } from 'react';
 
-export default function ItemOption({
-  enableButton,
-  setEnableButton,
-  order,
-  setOrder
-}) {
+export default function ItemOption({ setEnableButton, order, setOrder }) {
   const [counterDish, setCounterDish] = React.useState(0);
   const [counterDrink, setCounterDrink] = React.useState(0);
   const [counterDessert, setCounterDessert] = React.useState(0);
