@@ -1,9 +1,19 @@
 import ItemOption from './ItemOption';
 
-export default function Content() {
+export default function Content({
+  enableButton,
+  setEnableButton,
+  order,
+  setOrder
+}) {
   return (
     <div className='content'>
-      <ItemOption />
+      <ItemOption
+        enableButton={enableButton}
+        setEnableButton={setEnableButton}
+        order={order}
+        setOrder={setOrder}
+      />
     </div>
   );
 }

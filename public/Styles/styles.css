@@ -42,10 +42,23 @@ body {
   z-index: 1;
 }
 
-.button {
+.button-disabled {
   width: 364px;
   height: 61px;
   background-color: #cbcbcb;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+}
+
+.button-enabled {
+  width: 364px;
+  height: 61px;
+  background-color: rgb(28, 184, 28);
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -138,8 +151,41 @@ body {
   position: absolute;
   right: 22px;
   bottom: 31px;
+  display: flex;
+  width: 65px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
 }
 
 .counter-hidden {
   display: none;
+}
+
+.minus {
+  width: 15px;
+  height: 15px;
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 215, 215);
+}
+
+.plus {
+  width: 15px;
+  height: 15px;
+  border: 1px solid green;
+  border-radius: 3px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 228, 203);
+}
+
+.quantity {
+  margin: 0 8px;
 }

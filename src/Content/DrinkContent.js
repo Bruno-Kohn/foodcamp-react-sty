@@ -1,21 +1,27 @@
 import Item from './Item';
 import React from 'react';
 
-export default function DrinkContent(props) {
-  const { counterDrink, setCounterDrink } = props;
-
+export default function DrinkContent({
+  counterDrink,
+  setCounterDrink,
+  content,
+  setOrder,
+  order
+}) {
   return (
     <div className='item-option'>
       <div className='item-option-description'>
-        <h1>{props.content.optionDescription}</h1>
+        <h1>{content.optionDescription}</h1>
       </div>
       <div className='items-card'>
-        {props.content.item.map((j) => (
+        {content.item.map((j) => (
           <Item
             Choice={j}
             counterDrink={counterDrink}
             setCounterDrink={setCounterDrink}
             category='drink'
+            setOrder={setOrder}
+            order={order}
           />
         ))}
       </div>
