@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# FOODCAMP (English Version - Portuguese Below)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Foodcamp is a system that allows you to order a meal consisting of a main dish, a drink, and a dessert, which is sent directly to a WhatsApp number, simulating a real order.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To use the project on your machine, follow these steps:
 
-### `npm start`
+1. Clone this repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Open the project in Visual Studio Code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Run ```npm install```
 
-### `npm test`
+4. Start the project with ```npm start```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Use
 
-### `npm run build`
+To complete the order, the user must select at least one item from each category. When selecting an item, a counter will appear next to it, indicating the option to select the same item multiple times or to remove the selection. Once items from all categories are selected, the button to finalize the order will be enabled. By clicking on this button, the user will be redirected to WhatsApp with the pre-configured order message.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can find me at the links below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+LinkedIn: https://www.linkedin.com/in/kohn-bruno/
 
-### `npm run eject`
+Email: brunokohn1993@gmail.com
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+___________________________________________________________________________________________________________________________________________________________
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# FOODCAMP
 
-## Learn More
+O Foodcamp é um sistema que permite o pedido de uma refeição contendo prato principal, bebida e sobremesa onde é enviado diretamente para um número de whatsapp simulando um pedido real.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Instalação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para utilizar o projeto em sua máquina, faça os pontos a seguir:
 
-### Code Splitting
+1. Clone este repositório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Abra o projeto no vscode
 
-### Analyzing the Bundle Size
+3. Rode ```npm install```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Rode o projeto com ```npm start```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Como Usar
 
-### Advanced Configuration
+Para completar o pedido o usuário deverá selecionar pelo menos um item de cada categoria. Ao selecionar um item, deverá aparecer um contador ao lado que indicará a possibilidade de selecionar mais de uma vez esse mesmo item, ou então remover a seleção do mesmo. Quando os itens das categorias forem selecionados, o botão para concluir o pedido será habilitado. Ao clicar nesse botão, o usuário será encaminhado ao whatsapp já com a mensagem do pedido configurada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contato
 
-### Deployment
+Você pode me achar nos links abaixo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+linkedin: https://www.linkedin.com/in/kohn-bruno/
 
-### `npm run build` fails to minify
+email: brunokohn1993@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
